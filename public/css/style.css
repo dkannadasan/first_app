@@ -1,0 +1,155 @@
+body {
+	background-color: #d34a00;
+	//background-image: url(../image/bg.jpg);//
+	//background-repeat: repeat-x;//
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+#body {
+	width: 843px;
+}
+
+#maincontent{
+
+}
+#backgroundPopup{
+margin: 0 auto;
+width: 843px;
+}
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:276px;
+width:573px;
+background-image:url(../image/reg-popup.png);
+z-index:2;	
+font-size:13px;
+}
+#popupContact h1{
+text-align:center;
+color:#6FA5FD;
+font-size:24px;
+font-weight:700;
+padding-bottom:2px;
+margin-bottom:10px;
+}
+#almostdone{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:454px;
+width:571px;
+background-image:url(../image/almostdone.png);
+z-index:2;	
+font-size:13px;
+}
+#almostdone h1{
+text-align:center;
+color:#6FA5FD;
+font-size:24px;
+font-weight:700;
+padding-bottom:2px;
+margin-bottom:10px;
+}
+
+#popupContactClose{
+font-size:14px;
+line-height:14px;
+right:6px;
+top:4px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+#continue_btn{
+	position:absolute;
+	left:35px;
+	top: 212px;
+	display:block;
+	height:26px;
+	width:100px;
+	cursor: pointer;
+	
+}
+#submit_btn{
+	position:absolute;
+	display:block;
+	left: 38px;
+	top: 395px;
+	height:26px;
+	width:100px;
+	cursor: pointer;
+	
+}
+#passenger-div{
+	position:absolute;
+	left:43px;
+	top: 155px;
+}
+
+#regid{
+	height:30px;
+	width:350px;
+	padding-top: 6px;
+	border-color: #8D8DBA;
+    border-width: 1px 1px 1px;
+}
+
+#done-div{
+	position:absolute;
+	left:190px;
+	top: 98px;
+}
+
+#check-done{
+	position:absolute;
+	left: 45px;
+	top: 352px;
+	width:22px;
+	border-color: #8D8DBA;
+    border-width: 1px 1px 1px;
+}
+
+.done-text{
+	height:28px;
+	width:190px;
+	vertical-align:middle;
+	border-color: #8D8DBA;
+    border-width: 1px 1px 1px;
+	padding-left: 35px;
+}
+
+#fullname{
+background-image: url(../image/man.png);
+background-position: 5px 3px;
+background-repeat: no-repeat;
+z-index:1;
+}
+#email{
+background-image: url(../image/email.png);
+background-position: 5px 3px;
+background-repeat: no-repeat;
+z-index:1;
+}
+#password{
+background-image: url(../image/key.png);
+background-position: 5px 5px;
+background-repeat: no-repeat;
+z-index:1;
+}
+#confirmpassword{
+background-image: url(../image/key.png);
+background-position: 5px 5px;
+background-repeat: no-repeat;
+z-index:1;
+}
+

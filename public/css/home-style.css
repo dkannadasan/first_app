@@ -1,0 +1,128 @@
+
+body {
+	background-color: #d34a00;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	min-width: 1280px;
+}
+
+#wholepage{
+width:100%;	
+}
+
+#header{
+	float: right;
+	width: 24%;
+	padding-right: 3%;
+	height: 90px;
+}
+
+#maincontent{
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-left: 3%;
+	width: 95%;
+}
+
+#wrapper{
+	height: 667px;
+}
+.search-text{
+	height:15px;
+	width:103px;
+	border-color: #8D8DBA;
+    border-width: 1px 1px 1px;
+	padding-left: 2px;
+}
+#search-div{
+	position:relative;
+	margin-left: 90px;
+	margin-top: 37px;
+}
+
+#previous{
+	float: left;
+	position: relative;
+	top: 393px;
+	left: 17px;
+	cursor: pointer;
+}
+
+#next{
+	float: right;
+	position: relative;
+	top: 393px;
+	right: 13px;
+	cursor: pointer;
+}
+
+#leftcontent{
+	float: left;
+	width:75%;
+	min-height: 780px;
+}
+#leftcontainer{
+	width:100%;
+	min-height: 780px;
+}
+
+#leftedge{
+	float:left;
+	background-image: url("../image/receipt-bg-left.png");
+	background-repeat: no-repeat;
+	width: 75px;
+	min-height: 780px;
+}
+
+#rightedge{
+	float:right;
+	background-image: url("../image/receipt-bg-right.png");
+	background-repeat: no-repeat;
+	width: 76px;
+	min-height: 780px;
+}
+
+.bill{
+	height:320px;
+	width:240px;
+	border-color: #54CEF2;
+	border-style: solid;
+    border-width: 2px 2px 2px;
+	padding: 3px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#receiptdivtable{
+	width: 100%;
+	min-width: 780px;
+	position: relative;
+	left: -4.5%;
+	top: 45px;
+}
+
+#receiptarea{
+	margin-left:23px;
+	margin-right:23px;
+	background-image: url("../image/receipt-bg-center.png");
+	background-repeat: repeat-x;
+	min-height: 780px;
+}
+
+
+#rightcontent{
+	float: right;
+	width: 23%;
+	background-image: url("../image/right-content.png");
+	background-repeat: no-repeat;
+}
+#lasttext{
+	height:0px;
+	padding-top: 20px;
+	font-weight: bolder;
+}
