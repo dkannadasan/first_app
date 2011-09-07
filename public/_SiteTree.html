@@ -1,0 +1,175 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><link href="Resources/prototype.css" type="text/css" rel="stylesheet"></HEAD>
+<BODY>
+<A href=# onclick='parent.CloseSitemap()' style='font-size:8pt'>Close Frames</A><br><br>
+
+<SCRIPT LANGUAGE="JavaScript">
+image1 = new Image();
+image1.src = 'Resources/plus.gif';
+
+function CloseSitemap()
+{
+	parent.URL = parent.mainFrame.URL
+}
+
+function ToggleDiv(node, id)
+{
+	sibling = document.getElementById(id);
+	if (sibling.style.display == 'none')
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/minus.gif";
+			}
+		}
+
+		sibling.style.display = '';
+	}
+	else
+	{
+		if (node.childNodes.length > 0)
+		{
+			if (node.childNodes[0].tagName == "IMG")
+			{
+				node.childNodes[0].src = "Resources/plus.gif";
+			}
+		}
+		sibling.style.display = 'none';
+	}
+}
+
+var currentPage = null;
+
+function highlight(id)
+{
+	if (currentPage != null)
+	{
+		currentPage.style.backgroundColor = '#EEEEFF';
+		currentPage.style.paddingLeft = '0px';
+		currentPage.style.paddingRight = '0px';
+		currentPage.style.border = '0px solid #666666';
+	}
+	
+	currentPage = document.getElementById(id);
+    if (currentPage) {
+	    currentPage.style.backgroundColor = '#DDDDDD';
+	    currentPage.style.paddingLeft = '3px';
+	    currentPage.style.paddingRight = '3px';
+	    currentPage.style.border = '1px solid #666666';
+    }
+}
+
+</SCRIPT>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Subscribe.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pbdbb30318f4c4bce8e8e2c7b350dc984">Subscribe</SPAN></A><DIV id="tdbdbb30318f4c4bce8e8e2c7b350dc984">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Verify_Token.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0a440f737fde426a9c8a2910747ae1fd">Verify Token</SPAN></A><DIV id="td0a440f737fde426a9c8a2910747ae1fd">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Login.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p481536ab2e1a474a8a22d116f4a093cd">Login</SPAN></A><DIV id="td481536ab2e1a474a8a22d116f4a093cd">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Receipt_Dashboard.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p709fde5d00e9493fb238c6da4a021dc2">Receipt Dashboard</SPAN></A><DIV id="td709fde5d00e9493fb238c6da4a021dc2">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Receipt_Dashboard_-_List.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p211d659892bf444e95c8ad0a9b47af0b">Receipt Dashboard - List</SPAN></A><DIV id="td211d659892bf444e95c8ad0a9b47af0b">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Receipt_Dashboard_-_Thumbnail_View.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pefcdafffaac74b79a9aff4f0b7561b47">Receipt Dashboard - Thumbnail View</SPAN></A><DIV id="tdefcdafffaac74b79a9aff4f0b7561b47">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Thumbnail_View_-_Service_Tags.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pd55d7ae72347482f935905b4b1276abf">Thumbnail View - Service Tags</SPAN></A><DIV id="tdd55d7ae72347482f935905b4b1276abf">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Receipt_Dashboard_-_Filtering_Sears.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p3def0abddc8f4dce81fc6e0733bcb963">Receipt Dashboard - Filtering Sears</SPAN></A><DIV id="td3def0abddc8f4dce81fc6e0733bcb963">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='View_Receipt_Detail.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p0c9a30dbe18d4b85a8660a57e34b4db2">View Receipt Detail</SPAN></A><DIV id="td0c9a30dbe18d4b85a8660a57e34b4db2">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Manage_Tags.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p96a9b0e3c66a4c5d8cf7cd7f277b7d36">Manage Tags</SPAN></A><DIV id="td96a9b0e3c66a4c5d8cf7cd7f277b7d36">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Delete_Tags.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pbb8042aea05a40f0a0f9d64f26db5893">Delete Tags</SPAN></A><DIV id="tdbb8042aea05a40f0a0f9d64f26db5893">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Add_Comments.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="paab12286f05f4b2882d4312fa2f2a120">Add Comments</SPAN></A><DIV id="tdaab12286f05f4b2882d4312fa2f2a120">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Trend_Chart.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pebe412dc15f94f41bcb650be848c168d">Trend Chart</SPAN></A><DIV id="tdebe412dc15f94f41bcb650be848c168d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Alt_Home.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="pf9184a6930a4464ebf6a62ecfb036c2a">Alt Home</SPAN></A><DIV id="tdf9184a6930a4464ebf6a62ecfb036c2a">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Alt_Receipts_Dash.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p883da1ce99794efa8ab8665fd603fe80">Alt Receipts Dash</SPAN></A><DIV id="td883da1ce99794efa8ab8665fd603fe80">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE BORDER="0" cellspacing="0" cellpadding="0">
+	<TR>
+		<TD nowrap><IMG SRC="Resources/transparent.gif" WIDTH=17px HEIGHT=9px><A onClick="parent.mainFrame.location='Receipts_View.html'"><IMG class="plusminus" SRC="Resources/page.gif" border=0><SPAN id="p7f08aea986d240cc90fbc214dbd4346d">Receipts View</SPAN></A><DIV id="td7f08aea986d240cc90fbc214dbd4346d">
+			</DIV>
+		</TD>
+	</TR>
+</TABLE></BODY></HTML>
